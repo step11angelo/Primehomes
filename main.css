@@ -19,7 +19,7 @@
 }
 
 .main_container {
-    display: inline;
+    display: flex;
 }
 
 .main_pic_container {
@@ -35,11 +35,15 @@
     border-radius: 10px;
 }
 
+.right_container {
+    display: block;
+}
+
 .description {
     background-color: aqua;
-    font-size: 2vw;
-    width: 30vw;
-    display:inline-block;
+    /* font-size: 2vw; */
+    /* width: 50vw; */
+    /* display:inline; */
 }
 
 .card_pic {
